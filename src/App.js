@@ -44,7 +44,7 @@ const App = () => {
       </div>
 
       <TodoForm />
-      {todos.length===0 ? <Warning /> : <Todos />}
+     <Todos/>
     </TodoContext.Provider>
   );
 };
