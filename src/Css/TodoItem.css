@@ -11,7 +11,7 @@
     transition: all 0.85s;
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     .todoitem{
         width: auto;
         
