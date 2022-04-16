@@ -29,7 +29,7 @@ const App = () => {
     }
   };
   const [todos, dispatch] = useReducer(TodoReducer, getLocalData());
-  const [Status, setStatus] = useState(true);
+  const [Status] = useState(true);
   
 
   return (
@@ -44,7 +44,7 @@ const App = () => {
       </div>
 
       <TodoForm />
-      {todos.length === 0 ? <Warning /> : <Todos />}
+      {todos.length===0 ? <Warning /> : <Todos />}
     </TodoContext.Provider>
   );
 };
