@@ -7,7 +7,8 @@ const TodoItem = () => {
   const { todos, dispatch } = useContext(TodoContext);
   return (
     <>
-      {todos.map((todo) => (
+      {todos.map((todo) => {
+        return(
         <div  className="todoitem" key={todo.id}>
           <h5>{todo.title}</h5>
           <h3>{todo.desc}</h3>
@@ -23,7 +24,8 @@ const TodoItem = () => {
             Remove Todo
           </button>
         </div>
-      ))}
+        )
+      })}
     </>
   );
 };
