@@ -4,8 +4,9 @@
 }
 .todoform{
     border: 2px solid black;
-    width: auto;
+    width: 70%;
     height: auto;
+    margin: auto;
 
 }
 .form{
@@ -28,11 +29,15 @@
     width: 10rem;
     
 }
-@media(max-width:320px){
+@media(max-width:450px){
     #t{
         width: auto;
     }
     #d{
         width: auto;
     }
+    .form{
+        width: auto;
+    }
+
 }
