@@ -25,7 +25,7 @@ const App = () => {
     if (list) {
       return JSON.parse(list);
     } else {
-      return list;
+      return [];
     }
   };
   const [todos, dispatch] = useReducer(TodoReducer, getLocalData());
