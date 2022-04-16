@@ -11,3 +11,9 @@
     transition: all 0.85s;
 }
 
+@media(max-width:400px){
+    .todoitem{
+        width: auto;
+        
+    }
+}

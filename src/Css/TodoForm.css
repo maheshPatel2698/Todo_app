@@ -28,3 +28,11 @@
     width: 10rem;
     
 }
+@media(max-width:320px){
+    #t{
+        width: auto;
+    }
+    #d{
+        width: auto;
+    }
+}
